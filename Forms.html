@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<h1 align="center">Ventas en línea</h1>
+</head>
+<body style="background-color: #DEB887">
+	<form action="" method="post">
+		<fieldset>
+			<legend>Información General</legend>
+			<div align="center">
+			<table>
+				<tbody>
+
+					<tr>
+						<td><label for="name">Nombre:</label><br>
+   							<input type="name" name="nombre" id="name" placeholder="Nombre" required>
+   						</td>
+						<td><label for="apellidop">Apellido Paterno:</label><br>
+   							<input type="name" name="apellidop" id="apellidop" placeholder="Apellido Paterno" required>
+						</td>
+						<td>
+							<label for="apellidom">Apellido Materno:</label><br>
+   							<input type="name" name="apellidom" id="apellidom" placeholder="Apellido Materno" required>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label for="usuario">Nombre de Usuario:</label><br>
+   							<input type="user" name="usuario" id="usuario" placeholder="Nombre de Usuario" required>
+   						</td>
+						<td><label for="contraseña">Contraseña:</label><br>
+   							<input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required>
+						</td>
+						<td>
+							<label for="fechan">Fecha de Nacimiento:</label><br>
+   							<input type="date" name="fechan" id="fechan">
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+			</div>
+		</fieldset>
+	</form>
+
+	<form action="" method="post">
+		<fieldset>
+			<legend>Datos de facturación</legend>
+			<div align="center">
+			 <table>
+            <tr>
+                <td>
+                    <label for="pais">Pais:</label><br>
+                    <select name="pais" id="" size="3">
+                        <option value="">Mexico</option>
+                        <option value="">Canada</option>
+                        <option value="">E.U.A</option>
+                        <option value="">Alemania</option>
+                        <option value="">Haiti</option>
+                        <option value="">Ecuador</option>
+                        <option value="">Niger</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="ciudad">Ciudad</label><br>
+                    <select name="ciudad" id="" size="3">
+                        <option value="">San Luis Potosi</option>
+                        <option value="">Matehuala</option>
+                        <option value="">Cd. Valles</option>
+                        <option value="">Rio Verde</option>
+                        <option value="">Ahualulco</option>
+                        <option value="">Moctezuma</option>
+                        <option value="">Charcas</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="cal">Calle:</label><br>
+                    <input type="text" name="cal" placeholder="Calle">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ne">Numero de casa:</label><br>
+                    <input type="number" name="ne" placeholder="Numeo exterior"">
+                </td>
+                <td>
+                    <label for="col">Colonia:</label><br>
+                    <input type="text" name="col" placeholder="Colonia">
+                </td>
+                <td>
+                    <label for="mail">E-Mail:</label><br>
+                    <input type="email" name="mail" placeholder="E-Mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rfc">RFC:</label><br>
+                    <input type="text" name="rfc" placeholder="RFC">
+                </td>
+                <td>
+                    <label for="CP">Codigo Postal:</label><br>
+                    <input type="number" name="CP" placeholder="R.F.C">
+                </td>
+                <td>
+                    <input type="button" value="Enviar">
+                    <input type="reset" value="Reestablecer">
+                </td>
+            </tr>
+        </table>
+		</div>
+		</fieldset>
+	</form>
+
+</body>
+</html>
