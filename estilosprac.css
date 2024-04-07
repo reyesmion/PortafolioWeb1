@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+nav ul {
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+nav ul li {
+    text-align: center;
+    color: white;
+    margin: 3px;
+    padding: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: #7e587e; /* Púrpura oscuro */
+    list-style: none;
+    float: left;
+}
+
+nav ul li:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
+    background-color: #d8bfd8; /* Lavanda */
+}
+
+section p{
+    text-align: justify;
+}
+
+section {
+    display: flex;
+}
+
+section aside {
+    margin: 15px;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+}
+
+#t1 {
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    height: 15%;
+    background-color: #8a2be2; /* Azul violeta */
+}
+
+#btn {
+    width: 100%;
+    background-color: #9370db; /* Lila medio */
+}
+
+#btn:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    background-color: #dda0dd; /* Ciruela */
+}
+
+.cont {
+    height: 25px;
+}
+
+footer {
+    color: white;
+    position: sticky;
+    width: 100%;
+    height: 25px;
+    padding: 15px;
+    text-align: center;
+    background-color: #800080; /* Púrpura */
+    bottom: 0px;
+}
