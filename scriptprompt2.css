@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/originals/fb/0e/2d/fb0e2d3f2d3ea044cec1fea578934e8b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#principal {
+    margin: 50px auto;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+#tabla-container {
+    margin-top: 20px;
+}
